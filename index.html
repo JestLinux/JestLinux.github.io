@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jo | Linux Links</title>
+    <!-- Подключаем Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-300 font-mono min-h-screen flex flex-col justify-between selection:bg-emerald-500 selection:text-zinc-950">
+
+    <!-- Основной контент (Центрированная карточка) -->
+    <main class="max-w-md w-full mx-auto px-4 py-12 flex-grow flex flex-col justify-center items-center">
+        
+        <!-- Изображение Linux тематики (Качественная абстракция из стока Unsplash) -->
+        <div class="w-full h-48 rounded-xl overflow-hidden border border-zinc-800 shadow-2xl mb-6 bg-zinc-900">
+            <img src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=600&q=80" 
+                 alt="Linux Workspace" 
+                 class="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-300">
+        </div>
+
+        <!-- Заголовок в стиле Терминала -->
+        <div class="text-center mb-8">
+            <h1 class="text-2xl font-bold text-zinc-100 mb-1 flex items-center justify-center gap-2">
+                <span class="text-emerald-500">jo@linux:~$</span> ls -l
+            </h1>
+            <p class="text-xs text-zinc-500 tracking-wider">MY DIGITAL ECOSYSTEM</p>
+        </div>
+
+        <!-- Список кнопок-ссылок -->
+        <div class="w-full space-y-3.5">
+            
+            <!-- GitHub -->
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+               class="block w-full text-center py-3.5 px-4 bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800 hover:border-emerald-500/50 rounded-lg text-sm text-zinc-200 hover:text-emerald-400 font-semibold transition shadow-sm group">
+                <span class="text-zinc-600 group-hover:text-emerald-500 mr-1">[01]</span> GitHub Profile
+            </a>
+
+            <!-- Mastodon / Madtidon -->
+            <a href="https://mastodon.social" target="_blank" rel="noopener noreferrer"
+               class="block w-full text-center py-3.5 px-4 bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800 hover:border-emerald-500/50 rounded-lg text-sm text-zinc-200 hover:text-emerald-400 font-semibold transition shadow-sm group">
+                <span class="text-zinc-600 group-hover:text-emerald-500 mr-1">[02]</span> Mastodon (Madtidon)
+            </a>
+
+            <!-- Odyser.com -->
+            <a href="https://odyser.com" target="_blank" rel="noopener noreferrer"
+               class="block w-full text-center py-3.5 px-4 bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800 hover:border-emerald-500/50 rounded-lg text-sm text-zinc-200 hover:text-emerald-400 font-semibold transition shadow-sm group">
+                <span class="text-zinc-600 group-hover:text-emerald-500 mr-1">[03]</span> Odyser.com
+            </a>
+
+            <!-- Peervideo.ru -->
+            <a href="https://peervideo.ru" target="_blank" rel="noopener noreferrer"
+               class="block w-full text-center py-3.5 px-4 bg-zinc-900/50 hover:bg-zinc-900 border border-zinc-800 hover:border-emerald-500/50 rounded-lg text-sm text-zinc-200 hover:text-emerald-400 font-semibold transition shadow-sm group">
+                <span class="text-zinc-600 group-hover:text-emerald-500 mr-1">[04]</span> PeerVideo.ru
+            </a>
+
+            <!-- Blogspot (Выделена изумрудным цветом как главный блог) -->
+            <a href="https://blogspot.com" target="_blank" rel="noopener noreferrer"
+               class="block w-full text-center py-3.5 px-4 bg-emerald-950/20 hover:bg-emerald-950/40 border border-emerald-900/50 hover:border-emerald-500 rounded-lg text-sm text-emerald-400 hover:text-emerald-300 font-semibold transition shadow-md group">
+                <span class="text-emerald-600 group-hover:text-emerald-400 mr-1">[05]</span> Linux Blogspot
+            </a>
+
+        </div>
+
+    </main>
+
+    <!-- Подвал (Footer) -->
+    <footer class="w-full text-center py-6 text-[10px] text-zinc-700 border-t border-zinc-900/50">
+        <div>jo.github.io &copy; 2026 | Powered by pure HTML & Tailwind</div>
+    </footer>
+
+</body>
+</html>
